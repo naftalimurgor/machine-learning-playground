@@ -4,8 +4,7 @@ import tensorflow as tf
 
 print("TensorFlow version::", tf.__version__)
 
-# Load a dataset
-
+# Load a dataset, mnist dataset is integrated into TF
 mnist = tf.keras.datasets.mnist
 
 # Preload a dataset
@@ -49,6 +48,14 @@ model.compile(
 # Train and evaluate the model
 model.fit(x_train, y_train, epochs=5)
 
-# Evalutate the models performance
+# Evaluate the models performance
 
 model.evaluate(x_test, y_test, verbose=2)
+
+# Quick start: https://www.tensorflow.org/tutorials/quickstart/beginner
+# Libraries: https://www.tensorflow.org/resources/libraries-extensions
+# Datasets: https://www.tensorflow.org/resources/models-datasets
+# Models: https://www.tensorflow.org/resources/models-datasets
+
+# Moodle Discussion: Analyze two libraries written in Python
+# Decision paths and trees
