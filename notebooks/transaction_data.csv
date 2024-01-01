@@ -1,0 +1,6 @@
+﻿id,transaction_date,transaction_amount,merchant_name,category
+1,6/6/2023,100,Walmart,Groceries
+2,6/6/2023,50,Starbucks,Coffee
+3,6/6/2023,20,Netflix,Streaming
+4,6/6/2023,10,Gas Station,Gas
+5,6/6/2023,30,Amazon,Shopping
